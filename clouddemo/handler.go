@@ -3,6 +3,7 @@ package function
 // Handle a serverless request
 func Handle(req []byte) string {
 	color := true
+	
 	if color {
 		html := `
 		<body style="display:table;position:absolute;height:100%;background-color:#B0D0D3;width:100%;">
