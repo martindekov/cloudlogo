@@ -6,7 +6,7 @@ func Handle(req []byte) string {
 	if color {
 		html := `
 		<body style="display:table;position:absolute;height:100%;background-color:#B0D0D3;width:100%;">
-			<div style="display: table-cell;vertical-align: middle;"> 
+			<div style="display: table-cell;vertical-align: middle;">  
 				<div style="margin-left: auto;margin-right: auto;">
 					<img src="https://www.openfaas.com/images/openfaas/openfaas.png" style="display:block;margin:auto">
 					<img src="https://www.openfaas.com/images/openfaas/logo.png" style="display:block;margin:auto">
