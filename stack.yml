@@ -7,4 +7,3 @@ functions:
     lang: go
     handler: ./clouddemo
     image: martindekov/clouddemo:latest
-
